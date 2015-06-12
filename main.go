@@ -14,6 +14,11 @@ func main() {
 		if err != nil {
 			fmt.Printf("Error: %s\n", err)
 		}
+
+		for _, player := range players {
+			fmt.Printf("Name: %s\n", player.Name)
+		}
+
 		if len(players) > 0 {
 			player := players[0]
 			switch os.Args[1] {
