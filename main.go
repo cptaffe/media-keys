@@ -22,7 +22,7 @@ func main() {
 		case "prev":
 			player.Previous()
 		default:
-			fmt.Printf("%s is currently unsupported\n", os.Args[1])
+			fmt.Printf("%s is unsupported\n", os.Args[1])
 		}
 	}
 }
